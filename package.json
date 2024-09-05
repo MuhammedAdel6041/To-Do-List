@@ -1,13 +1,10 @@
 {
-  "homepage": "http://MuhammedAdel6041.github.io/To-Do-List",
   "name": "todolist",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -18,6 +15,7 @@
     "antd": "^5.20.4",
     "axios": "^1.7.7",
     "formik": "^2.4.6",
+    "http-proxy-middleware": "^3.0.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",
